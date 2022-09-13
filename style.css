@@ -18,6 +18,15 @@ body {
     font-size: 28px;
   }
   
+  #photo > img{
+    width:128px;
+    height:128px;
+    border-radius:50%;
+    border: 8px solid  rgb(0, 110, 110);
+    border-left: 8px solid rgb(225, 75, 107);
+    object-fit:cover;
+
+  }
   button {
       color: white;
       font-size: 125%;
